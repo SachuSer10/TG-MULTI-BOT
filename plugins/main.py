@@ -46,7 +46,7 @@ async def media_info(bot, m):
                                         
     if not md:
         buttons = [[
-            InlineKeyboardButton("✨️ Support", url="https://t.me/BETA_SUPPORT"),
+            
             InlineKeyboardButton("📢 Updates", url="https://t.me/Beta_BoTZ")
         ]]       
         mkn = await m.reply("please wait....")
