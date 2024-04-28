@@ -52,7 +52,7 @@ async def callback(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴄᴀʀʙᴏɴ', callback_data='carben'),
             InlineKeyboardButton('ꜰᴜɴ ɢᴀᴍᴇ', callback_data='fun')                      
             ],[
-            InlineKeyboardButton('❤️‍🔥 ꜱᴏᴜʀᴄᴇ', callback_data='source'),
+            
             InlineKeyboardButton('📡 ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
             InlineKeyboardButton('⏮️ ʙᴀᴄᴋ', callback_data='start'),           
