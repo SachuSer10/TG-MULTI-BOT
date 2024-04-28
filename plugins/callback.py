@@ -25,7 +25,7 @@ async def callback(client: Client, query: CallbackQuery):
        await query.message.edit(
            text = tg.STAT.format(query.from_user.mention),        
            reply_markup=InlineKeyboardMarkup( [[
-               InlineKeyboardButton("🍁 ꜱᴜᴩᴩᴏʀᴛ", url="https://t.me/BETA_SUPPORT"),
+               
                InlineKeyboardButton("📯 ᴜᴩᴅᴀᴛᴇꜱ", url="https://t.me/Beta_BoTZ")
                ],[            
                InlineKeyboardButton("ℹ️ ʜᴇʟᴩ", callback_data="help"),
