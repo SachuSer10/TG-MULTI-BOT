@@ -9,8 +9,8 @@ from helper.text import txt
 async def start_message(bot, message):
     await add_user(bot, message)    
     button=InlineKeyboardMarkup([[
-        InlineKeyboardButton("ꜱᴜᴩᴩᴏʀᴛ", url="https://t.me/BETA_SUPPORT"),
-        InlineKeyboardButton("ᴜᴩᴅᴀᴛᴇꜱ", url="https://t.me/Beta_BoTZ")
+        InlineKeyboardButton("ꜱᴜᴩᴩᴏʀᴛ", url="https://t.me/NSKBOTS"),
+        InlineKeyboardButton("ᴜᴩᴅᴀᴛᴇꜱ", url="https://t.me/NSKBOTS")
         ],[            
         InlineKeyboardButton("ʜᴇʟᴩ", callback_data="help"),
         InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about") 
